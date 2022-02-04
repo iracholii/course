@@ -1,7 +1,9 @@
+* {
+  box-sizing: border-box;
+}
 .container {
   float: left;
   width: 50%;
-  box-sizing: border-box;
 }
 .red {
   background-color: red;
