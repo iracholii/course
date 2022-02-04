@@ -1,0 +1,17 @@
+div {
+  border: 2px solid black;
+  padding: 50px;
+}
+.outsideBox {
+  margin: 50px;
+  background-color: blue;
+}
+.insideBox1 {
+  background-color: yellow;
+}
+.insideBox2 {
+  background-color: green;
+}
+.insideBox3 {
+  background-color: pink;
+}
