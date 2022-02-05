@@ -23,5 +23,6 @@ a {
   text-decoration: none;
 }
 .italic {
+  font-style: italic;
   color: grey;
 }
