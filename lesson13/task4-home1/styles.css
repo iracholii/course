@@ -1,5 +1,5 @@
 .image {
-  display: inline-block;
+  float: left;
   height: 200px;
   width: 200px;
   margin: 16px;
@@ -7,7 +7,4 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-}
-* {
-  box-sizing: border-box;
 }
