@@ -1,10 +1,10 @@
 .image-container {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 .image {
-  position: relative;
-  max-width: 500px;
-  left: calc(50vw - 250px);
+  max-width: 100%;
 }
 .image-button {
   padding: 0px;
