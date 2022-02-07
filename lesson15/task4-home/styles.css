@@ -7,6 +7,7 @@
   left: calc(50vw - 250px);
 }
 .image-button {
+  padding: 0px;
   text-align: center;
   position: absolute;
   top: calc(50% - 25px);
