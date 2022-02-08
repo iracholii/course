@@ -12,6 +12,7 @@ button {
   cursor: pointer;
   margin: 64px;
   padding: 0px;
+  outline: none;
 }
 button:hover {
   color: darkcyan;
