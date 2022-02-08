@@ -11,6 +11,7 @@ button {
   border: none;
   cursor: pointer;
   margin: 64px;
+  padding: 0px;
 }
 button:hover {
   color: darkcyan;
