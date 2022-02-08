@@ -19,7 +19,6 @@ html {
   text-align: center;
 }
 .form-input {
-  margin-bottom: 8px;
   margin-top: 4px;
   padding: 4px;
   height: 32px;
@@ -43,4 +42,7 @@ html {
 .page {
   height: 100vh;
   display: flex;
+}
+.form-control {
+  margin-bottom: 8px;
 }
