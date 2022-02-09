@@ -43,6 +43,6 @@
     transform: rotate(0);
   }
   to {
-    transform: rotate(3620deg);
+    transform: rotate(360deg);
   }
 }
