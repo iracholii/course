@@ -1,0 +1,54 @@
+@import 'layout.scss';
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  @include screen-large {
+    flex-direction: row;
+  }
+}
+.products {
+  display: flex;
+  flex-direction: column;
+  @include screen-medium {
+    flex-direction: row;
+    flex: 1;
+  }
+  @include screen-large {
+    flex: 2;
+  }
+}
+.navigation {
+  background-color: #ff7f50;
+  height: 200px;
+  display: flex;
+  @include screen-medium {
+    flex: 1;
+  }
+}
+.products-list {
+  background-color: #006400;
+  height: 200px;
+  display: flex;
+  @include screen-medium {
+    flex: 1;
+  }
+}
+.news {
+  background-color: #0ff;
+  height: 200px;
+  display: flex;
+  @include screen-large {
+    flex: 1;
+  }
+}
+span {
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  margin: auto;
+}
