@@ -1,0 +1,20 @@
+@mixin orientation-portrait {
+  @media screen and (orientation: portrait) {
+    @content;
+  }
+}
+@mixin screen-medium {
+  @media screen and (min-width: 600px) {
+    @content;
+  }
+}
+@mixin screen-large {
+  @media screen and (min-width: 900px) {
+    @content;
+  }
+}
+@mixin screen-extra-large {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
